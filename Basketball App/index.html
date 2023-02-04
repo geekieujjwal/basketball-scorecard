@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball App</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <main>
+
+        <div class="container">
+            <div class="column1">
+                <div class="head">home</div>
+                <div id="score1">0</div>
+                <button class="add1" onclick="increment_first1()">+1</button>
+                <button class="add2" onclick="increment_first2()">+2</button>
+                <button class="add3" onclick="increment_first3()">+3</button>
+            </div>
+            <div class="column2">
+                <div class="head">guest</div>
+                <div id="score2">0</div>
+                <button class="add1" onclick="increment_second1()">+1</button>
+                <button class="add2" onclick="increment_second2()">+2</button>
+                <button class="add3" onclick="increment_second3()">+3</button>
+            </div>
+        </div>
+        
+        <button id="new_game" onclick="fresh()">new game</button>
+
+    </main>
+    <script src="/index.js"></script>
+</body>
+</html>
